@@ -12,4 +12,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: npm -v
+      - run: lsb_release -a
 
